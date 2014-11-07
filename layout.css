@@ -1,11 +1,37 @@
 body {
   margin: 0
 }
-.navbar {
+.navbar,
+.submenu-navbar {
   background-color: #f9bd27;
   float: left;
   width: 100px;
   height: 100%;
+}
+
+.submenu-navbar {
+  display: none;
+  width: 350px;
+}
+
+@font-face {
+  font-family: mic_font;
+  src: url('PFBeauSansPro-Light.ttf')
+}
+
+.submenu-navbar span {
+  display: block;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  padding-top: 25px;
+  font-size: 20pt;
+  font-family: mic_font;
+}
+
+.submenu-navbar span:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 
 .navbar .logo {
@@ -36,4 +62,12 @@ body {
 
 .navbar .current img {
   width: 100%;
+}
+
+.navbar span {
+  cursor: pointer;
+}
+
+.navbar span:hover {
+  background-color: lightgray;
 }
