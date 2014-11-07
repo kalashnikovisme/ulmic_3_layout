@@ -71,3 +71,8 @@ body {
 .navbar span:hover {
   background-color: lightgray;
 }
+
+#it {
+  padding-top: 5px;
+  height: 70px;
+}
