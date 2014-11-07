@@ -24,4 +24,5 @@ $(document).ready(function() {
       width: 'toggle'
     }, 350);
   });
+  $('.main_header').css('width', $(document).width() - 100);
 });

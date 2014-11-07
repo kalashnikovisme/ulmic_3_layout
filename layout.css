@@ -34,19 +34,6 @@ body {
   cursor: pointer;
 }
 
-.navbar .logo {
-  width: 100%;
-  height: 100px;
-  background-color: white;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.navbar .logo img {
-  width: 90%;
-}
-
 .navbar .show-lines {
   display: block;
   background: url('glyphicons_show_lines.png') no-repeat;
@@ -76,3 +63,32 @@ body {
   padding-top: 5px;
   height: 70px;
 }
+
+.header {
+  height: 120px;
+  float: left;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid lightgray;
+}
+.header .main_header {
+  background-image: url('header_1.jpg');
+  background-color: white;
+  float: left;
+  height: 100%;
+  opacity: 0.5;
+}
+.header .logo {
+  width: 100px;
+  height: 100%;
+  float: left;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header .logo img {
+  width: 90%;
+}
+
