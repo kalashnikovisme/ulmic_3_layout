@@ -1,0 +1,39 @@
+body {
+  margin: 0
+}
+.navbar {
+  background-color: #f9bd27;
+  float: left;
+  width: 100px;
+  height: 100%;
+}
+
+.navbar .logo {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar .logo img {
+  width: 90%;
+}
+
+.navbar .show-lines {
+  display: block;
+  background: url('glyphicons_show_lines.png') no-repeat;
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+}
+
+.navbar .current {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar .current img {
+  width: 100%;
+}
