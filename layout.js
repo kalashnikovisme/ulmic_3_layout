@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $('.current').css('margin-top', $(this).height() - 220 - $('.current').height());
+  $('.current').css('margin-top', $('.navbar').first().height() - 100 - $('.current').height());
+  $('.submenu-navbar').css('height', $('.navbar').height() + 120);
   $('#show_submenu_1').click(function() {
     $('#submenu_1').animate({
       width: 'toggle'

@@ -6,6 +6,9 @@ body {
   background-color: #f9bd27;
   float: left;
   width: 100px;
+}
+
+.navbar {
   height: 100%;
 }
 
