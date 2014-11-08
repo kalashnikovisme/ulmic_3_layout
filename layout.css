@@ -115,6 +115,7 @@ body {
 .content .main_news {
   width: 50%;
   height: 450px;
+  float: left;
 }
 
 .content .main_news .news {
@@ -126,6 +127,9 @@ body {
   cursor: pointer;
 }
 
+.content .main_news .news:last-child {
+  border-bottom: none;
+}
 .content .main_news .news .photo {
   position: relative;
   height: 100%;
@@ -147,4 +151,26 @@ body {
   margin-top: 10px;
   font-size: 10pt;
   text-align: justify;
+}
+.content .events {
+  float: left;
+  width: 49%;
+  height: 450px;
+  border: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+}
+.content .events .event {
+  float: left;
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.content .events .event canvas {
+  float: left;
+}
+
+.content .events .event .text {
+  float: left;
 }

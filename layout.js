@@ -27,4 +27,18 @@ $(document).ready(function() {
   });
   $('.main_header').css('width', $(document).width() - 100);
   $('.content').css('width', $(document).width() - 170);
+  var ctx = document.getElementById("myChart").getContext("2d");
+  var data = [{
+    value: 4,
+    color:"#f9bd27",
+    highlight: "#f9bd27",
+    label: "Идёт"
+  },
+  {
+    value: 2,
+    color: "lightgray",
+    highlight: "lightgray",
+    label: "Осталось"
+  }];
+  var myNewChart = new Chart(ctx).Doughnut(data, { segmentStrokeWidth : 10 });
 });
