@@ -25,4 +25,5 @@ $(document).ready(function() {
     }, 350);
   });
   $('.main_header').css('width', $(document).width() - 100);
+  $('.content').css('width', $(document).width() - 170);
 });

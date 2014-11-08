@@ -102,3 +102,46 @@ body {
   width: 90%;
 }
 
+.content {
+  float: left;
+  height: 100%;
+  width: auto;
+  padding: 35px;
+}
+
+.content .main_news {
+  width: 50%;
+  height: 450px;
+}
+
+.content .main_news .news {
+  position: relative;
+  height: 130px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.content .main_news .news .photo {
+  position: relative;
+  height: 100%;
+  width: 20%;
+  margin-right: 10px;
+  float: left;
+  background-size: auto 100%;
+  background-image: url('news_1.jpg');
+  background-position: 50%;
+}
+.content .main_news .news .text {
+  position: relative;
+  height: 150px;
+  float: left;
+  width: 70%;
+  font-family: mic_font;
+}
+.content .main_news .news .text .body {
+  margin-top: 10px;
+  font-size: 10pt;
+  text-align: justify;
+}
