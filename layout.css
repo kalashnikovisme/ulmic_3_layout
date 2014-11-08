@@ -10,8 +10,11 @@ body {
 }
 
 .submenu-navbar {
+  margin-top: -120px;
+  z-index: 3;
   display: none;
   width: 350px;
+  opacity: 0.99;
 }
 
 @font-face {
@@ -45,6 +48,7 @@ body {
 .navbar .current {
   width: 100px;
   height: 100px;
+  cursor: pointer;
 }
 
 .navbar .current img {
@@ -70,15 +74,21 @@ body {
   width: 100%;
   float: left;
   border-bottom: 1px solid lightgray;
+  z-index: 1;
 }
 .header .main_header {
   background-image: url('header_1.jpg');
   background-color: white;
   float: left;
   height: 100%;
-  opacity: 0.5;
+  opacity: 0.4;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 90%;
+  z-index: 2;
 }
 .header .logo {
+  cursor: pointer;
   width: 100px;
   height: 100%;
   float: left;
